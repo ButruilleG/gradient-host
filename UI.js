@@ -4,17 +4,15 @@ function floatFunction(){
   var wide = $(window).width();
 
   if(wide < 800){
-    $(".floaty").css({"display": "block"});
-    $(".floaty").css({"text-align": "center"});
+    $(".floaty").css({"float": "none"});
 
-    $(".resizeMiddle").css({"margin-left": "1%"});
-    $(".resizeMiddle").css({"margin-right": "1%"});
+    $(".resizeMiddle").css({"padding-left": "1%"});
+    $(".resizeMiddle").css({"padding-right": "1%"});
   }
   else{
-    $(".floaty").css({"display": "table-cell"});
-    $(".floaty").css({"text-align": "left"});
+    $(".floaty").css({"float": "right"});
 
-    $(".resizeMiddle").css({"margin-left": "15%"});
-    $(".resizeMiddle").css({"margin-right": "15%"});
+    $(".resizeMiddle").css({"padding-left": "15%"});
+    $(".resizeMiddle").css({"padding-right": "15%"});
   }
 }

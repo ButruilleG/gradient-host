@@ -1,5 +1,5 @@
 <?php include "header.php"; ?>
-<?php require "../sefulfunctions.php"; ?>
+<?php require "usefulfunctions.php"; ?>
 
 <?php
         if($_GET[file]){

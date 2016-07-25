@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-<?php require "../usefulfunctions.php" ?>
+<?php require "usefulfunctions.php" ?>
 <h1>Search</h1>
 <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
